@@ -7,6 +7,6 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/movies", movieController);
+app.use("/products", movieController);
 
 module.exports = app;
